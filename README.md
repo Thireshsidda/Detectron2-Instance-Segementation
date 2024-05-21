@@ -117,3 +117,12 @@ streamlit run streamlit_app.py
 
 ## Conclusion
 In conclusion, our instance segmentation Flask app powered by Detectron2 opens the door to a realm of possibilities in computer vision. By providing a user-friendly interface, seamless deployment options, and leveraging state-of-the-art instance segmentation, the project invites users to explore the nuances of this transformative technology.
+
+
+
+## Author
+
+👤 **Thiresh Sidda**
+
+* LinkedIn: [@ThireshSidda](https://www.linkedin.com/in/thiresh-sidda)
+* GitHub: [@ThireshSidda](https://github.com/Thireshsidda)
