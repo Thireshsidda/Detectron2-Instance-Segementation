@@ -12,12 +12,11 @@ The motivation behind this choice lies in Detectron2’s track record of excelli
 ## Overview
 This project leverages the state-of-the-art Detectron2 library, developed by Facebook AI Research (FAIR), to bring instance segmentation to the forefront. By integrating it into a user-friendly Flask web application, the project not only demystifies complex image analysis but also opens avenues for interactive and accessible computer vision applications. Join us to explore the transformative potential of instance segmentation and its impact on reshaping our interaction with visual data.
 
-
-1. User Interface
+### User Interface
 
 ![User Interface](images/ui.png)
 
-2. Streamlit User Interface
+### Streamlit User Interface
 
 ![Streamlit UI](images/streamlit_ui.png)
 
