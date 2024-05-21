@@ -1,10 +1,17 @@
 # Traffic Signs Instance Segmentation with Detectron2 Flask App
+![Detectron2 Logo](images/detectron2-logo.png)
+
+## Introduction
+
+Instance segmentation, a cornerstone in computer vision, surpasses traditional image recognition by precisely identifying and delineating individual objects within an image. This nuanced approach has wide-ranging applications, from enhancing autonomous vehicles to refining medical imaging.
+
+In selecting Detectron2 for instance segmentation, a deliberate choice was made to embrace a library that stands as a beacon in the landscape of computer vision. Detectron2, an offspring of Facebook AI Research (FAIR), represents a confluence of robustness, accuracy, and extensibility. Its modular architecture allows for seamless integration into diverse applications, making it an ideal candidate for our instance segmentation Flask app.
+
+The motivation behind this choice lies in Detectron2’s track record of excelling in object detection and segmentation tasks. Its pre-trained models, crafted through extensive research and fine-tuning, provide a solid foundation for accurate instance segmentation. Moreover, Detectron2’s active community and ongoing development ensure that the library stays at the forefront of advancements in the rapidly evolving field of computer vision.
 
 ## Overview
+This project leverages the state-of-the-art Detectron2 library, developed by Facebook AI Research (FAIR), to bring instance segmentation to the forefront. By integrating it into a user-friendly Flask web application, the project not only demystifies complex image analysis but also opens avenues for interactive and accessible computer vision applications. Join us to explore the transformative potential of instance segmentation and its impact on reshaping our interaction with visual data.
 
-This project is a Flask web application that leverages the power of the Detectron2 library for instance segmentation. Instance segmentation is a computer vision task that involves identifying and delineating individual objects within an image. Detectron2, developed by Facebook AI Research (FAIR), is a state-of-the-art object detection and segmentation library.
-
-![Detectron2 Logo](images/detectron2-logo.png)
 
 1. User Interface
 
@@ -76,40 +83,38 @@ streamlit run streamlit_app.py
 
 ![Model precision](images/precision.jpg)
 
+
 ## Features
-
-- **Instance Segmentation:** Utilizes a pre-trained Detectron2 model to perform instance segmentation on images.
+- **Instance Segmentation:** Utilizing Detectron2’s pre-trained models, our app achieves granular instance segmentation, precisely identifying and outlining individual objects within images. This is particularly beneficial in scenarios where detailed object understanding is paramount, such as in medical imaging for organ delineation.
   
-- **User-friendly Interface:** Provides a user-friendly web interface for users to upload images and visualize the segmentation results.
+- **User-friendly Interface:** The app boasts a user-friendly web interface, enabling users to upload images and visualize segmentation results effortlessly. This accessibility is key for users across various domains, from researchers experimenting with computer vision to professionals seeking quick insights from visual data.
 
-- **Flask Web Application:** Developed using the Flask web framework, making it easy to deploy and interact with the application.
+- **Flask Web Application:** Developed on the Flask web framework, our application prioritizes simplicity and ease of deployment. Flask’s lightweight and modular nature makes it an optimal choice for hosting the app, ensuring a smooth user experience during deployment and interaction.
 
-- **Conda Environment:** Comes with a recommended conda environment to ensure a consistent and reproducible development environment.
+- **Conda Environment:** The inclusion of a recommended Conda environment underscores our commitment to a consistent and reproducible development environment. This ensures that users, regardless of their setup, can easily replicate and build upon the project without encountering versioning or dependency challenges.
+
 
 ## How it Works
+##### To demystify the intricacies of our instance segmentation Flask app, let’s walk through the streamlined process it follows:
+1. **User Uploads Image:** Users initiate the process by uploading images through the user-friendly web interface provided by our Flask application.
 
-1. **User Uploads Image:** Users can upload images through the web interface.
+2. **Instance Segmentation:** The uploaded image undergoes a meticulous process powered by Detectron2’s pre-trained models. These models excel in discerning and delineating individual objects within the image, performing instance segmentation with a high level of accuracy.
 
-2. **Instance Segmentation:** The uploaded image is processed using a pre-trained Detectron2 model for instance segmentation.
+3. **Result Display:** The segmented image, now enriched with colour-coded masks representing detected instances, is presented back to the user. This step provides a visual understanding of how the model has identified and segmented various objects within the uploaded image.
 
-3. **Result Display:** The segmented image is displayed back to the user, showcasing the detected instances with color-coded masks.
-
-4. **Easy Deployment:** The application is designed for easy deployment, allowing users to run it locally or deploy it on a server.
+4. **Easy Deployment:** Designed with user convenience in mind, the Flask web application ensures easy deployment. Users have the flexibility to run the application locally or deploy it on a server, adapting to their specific needs and preferences.
 
 ## Requirements
-
 - Python 3.x
 - Conda (for managing the virtual environment)
 - Detectron2 library
 - Flask
 
 ## Usage
-
 1. Clone the repository.
 2. Create a conda environment and install dependencies.
 3. Run the Flask application using `python run.py`.
 4. Access the application at [http://localhost:5000](http://localhost:5000) in your web browser.
 
-## Additional Information
-
-For more details or customizations, refer to the project's documentation or contact the project maintainers. Enjoy exploring instance segmentation with Detectron2.
+## Conclusion
+In conclusion, our instance segmentation Flask app powered by Detectron2 opens the door to a realm of possibilities in computer vision. By providing a user-friendly interface, seamless deployment options, and leveraging state-of-the-art instance segmentation, the project invites users to explore the nuances of this transformative technology.
