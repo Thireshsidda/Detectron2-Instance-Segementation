@@ -33,7 +33,7 @@ Follow these steps to get started with the project.
 ### 1. Clone the Repository
 
 ```bash
-git clone git@github.com:SHOCKWAVE07/Detectron2-FlaskApp.git
+git clone git@github.com/Thireshsidda/Detectron2-Instance-Segementation
 ```
 ```bash
 cd Detectron2-FlaskApp
