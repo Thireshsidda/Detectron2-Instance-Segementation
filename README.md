@@ -1,3 +1,11 @@
+# Traffic Signs Instance Segmentation with Detectron2 Flask App
+
+## Intro to Detectron2
+For a comprehensive overview of the project and detailed implementation flow, please refer to my companion repository: [Intro-to-Detectron2](https://github.com/Thireshsidda/Intro-to-Detectron2).
+
+This repository contains detailed documentation, additional resources, and step-by-step guides to help you understand the implementation process thoroughly.
+
+![Detectron2 Logo](images/detectron2-logo.png)
 
 ## Use Case Introduction
 
